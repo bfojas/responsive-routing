@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+
+nav > img {
+  display: block;
+  width: 70px;
+  height: auto;
+}
