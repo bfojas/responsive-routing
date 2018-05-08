@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import './UserCard.css'
+import './UsersCard.css';
 
 const UsersCard = ({ user, match }) => <Link to={`${match.url}/${user.id}`} className="column card">
   <img src={user.avatar} alt=""/>

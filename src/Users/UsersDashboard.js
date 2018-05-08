@@ -13,7 +13,6 @@ const UsersDashboard = ({ users, user, match }) => (
         path={match.url + '/:id'}
         render={props => (
           <UsersDetails
-            user={user}
             user={
               users.filter(
                 user => user.id === parseInt(props.match.params.id, 10)

@@ -73,7 +73,7 @@ class App extends Component {
                     <UsersList users={this.state.users} {...props} />
                   )}
                 />
-                <Route
+            <Route
                   path="/users/:id"
                   render={props => (
                     <UsersDetails
